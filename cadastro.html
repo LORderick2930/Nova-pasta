@@ -56,13 +56,20 @@
         <div class="row">
             <div class="col-sm-12">
                 <fieldset class="row">
-                    <legend>Dados pessoas</legend>
+                    <div>
+                        <input type="radio" id="fornecedor" value="fornecedor">
+                        <label for="fornecedor">Fornecedor</label>
+                        <input type="radio" id="comprador" value="comprador">
+                        <label for="comprador">comprador</label>
+                    </div>
+
                     <div class="mb-3">
                         <label for="txtNome" class="form-label">nome</label>
                         <input type="text" class="form-control" id="txtNome">
                     </div>
                     <div class="mb-3">
                         <label for="txtCNPJ" class="form-label">CNPJ</label>
+                        <span class="form-text">(Somente numeros) </span>
                         <input type="text" class="form-control" id="txtCNPJ">
                     </div> 
                     <div class=" mb-3 col-md-6  col-xl-4">    <label for="txtNome" class="form-label">CPF</label>
